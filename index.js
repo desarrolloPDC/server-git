@@ -8,8 +8,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 app.use(cors())
 
-app.get("/", cors(), async( req, res ) => {
+app.get("/BISTROT", cors(), async( req, res ) => {
     res.send("This is working!");
+})
+
+app.get("/BISTROT/endpoint", cors(), async( req, res ) => {
+    res.send("This is new feature change, a new route for products");
 })
 
 app.listen(port, () => {
