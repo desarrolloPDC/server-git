@@ -17,7 +17,7 @@ app.get("/BISTROT/endpoint", cors(), async( req, res ) => {
 })
 
 app.get("/BISTROT/endpointnuevo", cors(), async( req, res ) => {
-    res.send("This is new feature change EMIR");
+    res.send("Emir isaac orellana");
 })
 
 app.listen(port, () => {
