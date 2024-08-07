@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get("/BISTROT", cors(), async( req, res ) => {
-    res.send("This is working!");
+    res.send("This is working!!!!");
 })
 
 app.get("/BISTROT/endpoint", cors(), async( req, res ) => {
