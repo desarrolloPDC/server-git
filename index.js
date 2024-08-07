@@ -17,7 +17,7 @@ app.get("/BISTROT/endpoint", cors(), async( req, res ) => {
 })
 
 app.get("/BISTROT/cambio", cors(), async( req, res ) => {
-    res.send("ESTA CORRIENDO BISTROT API PAPA");
+    res.send("ESTA CORRIENDO BISTROT API PAPA por franco gonzalez");
 })
 
 app.listen(port, () => {
