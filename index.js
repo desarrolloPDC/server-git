@@ -16,6 +16,9 @@ app.get("/BISTROT/endpoint", cors(), async( req, res ) => {
     res.send("This is new feature change, a new route for products");
 })
 
+app.get("/BISTROT/endpointnuevo", cors(), async( req, res ) => {
+    res.send("This is new feature change EMIR");
+})
 
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`);
